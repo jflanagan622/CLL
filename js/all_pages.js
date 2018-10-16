@@ -1,3 +1,5 @@
+//var FileSaver = require('file-saver');
+
 function setDateFormat(){
 	
 	jQuery.datetimepicker.setDateFormatter({
