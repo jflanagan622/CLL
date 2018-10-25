@@ -35,7 +35,7 @@ app.listen(app.get('port'), function(){
 // Welcome page route
 
 app.get('/', function(req,res) {
-	res.render('welcome');
+	res.render('schedules');
 });
 
 
