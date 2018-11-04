@@ -38,9 +38,9 @@ app.listen(app.get('port'), function(){
 
 // Welcome page route
 
-app.get('/', function(req,res) {
+/*app.get('/', function(req,res) {
 	res.render('signup');
-});
+});*/
 
 app.get('/signup', function(req,res) {
 	// Send the construction page
@@ -72,7 +72,7 @@ app.get('/delete', function(req,res) {
   mailchimpApiKey     = '41a21c53eaf1834b0a762830ed5a5e9e-us19';
 
 app.post('/signup', function (req, res) {
-	console.log(req.body.email);
+	
   request
 	  .post('https://' + mailchimpInstance + '.api.mailchimp.com/3.0/lists/' + listUniqueId + '/members/')
 	  .set('Content-Type', 'application/json;charset=utf-8')
