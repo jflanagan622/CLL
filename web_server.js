@@ -65,8 +65,7 @@ app.get('/delete', function(req,res) {
 /*app.post('/signup', function (req, res) {
 	// save user details to your database.
 	res.send('Signed Up!');
-  });*/
-
+  });*
   var mailchimpInstance   = 'us19',
   listUniqueId        = '2388d8a9aa',
   mailchimpApiKey     = '41a21c53eaf1834b0a762830ed5a5e9e-us19';
@@ -95,6 +94,6 @@ app.post('/signup', function (req, res) {
 			  res.send('Sign Up Failed :(');
 			}
 		});
-});
+});*/
 
 

@@ -72,14 +72,14 @@ var games = require('./routes/games');
  //Create
 app.post('/api/game', games.createGame);
 
-//Get specific customer
+/*Get specific customer
 app.get('/api/games', games.readGame);
 
 //Update
 app.put('/api/games/:id', games.updateGame);
 
 // Delete
-app.delete('/api/games/:id', games.deleteGame);
+app.delete('/api/games/:id', games.deleteGame);*/
 
 
 //-----------------------------------------
