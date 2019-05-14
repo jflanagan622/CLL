@@ -48,11 +48,11 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
-	var mailchimpInstance   = "us19";
+	/*var mailchimpInstance   = "us19";
   	var listUniqueId        = "2388d8a9aa";
   	var mailchimpApiKey     = "41a21c53eaf1834b0a762830ed5a5e9e-us19";
-	var encodeAuth = btoa("James:41a21c53eaf1834b0a762830ed5a5e9e-us19");
-	console.log(encodeAuth);
+	var encodeAuth = btoa("James:41a21c53eaf1834b0a762830ed5a5e9e-us19");*/
+	//console.log(encodeAuth);
 
 	$("#create-contact").on("click", function() {
 		$("#update-form").slideUp();
@@ -70,7 +70,7 @@ $(document).ready(function() {
 
 	function getEmailsFromMailchimp(){
 
-		 axios({
+		/* axios({
                 method  : "GET",
                 url     : "https://" + mailchimpInstance + ".api.mailchimp.com/3.0/lists/" + listUniqueId,
                 headers : {
@@ -88,7 +88,7 @@ $(document).ready(function() {
                     console.log(error.response.status);
                     console.log(error.response.headers);
                 }            
-            });
+            });*/
 	}
 	
 });

@@ -62,13 +62,13 @@ app.get('/delete', function(req,res) {
 	res.render('delete');
 });
 
-/*app.post('/signup', function (req, res) {
+app.post('/signup', function (req, res) {
 	// save user details to your database.
 	res.send('Signed Up!');
-  });*
+  });
   var mailchimpInstance   = 'us19',
   listUniqueId        = '2388d8a9aa',
-  mailchimpApiKey     = '41a21c53eaf1834b0a762830ed5a5e9e-us19';
+  mailchimpApiKey     = '43f6c9ca952a5f48f1ace3647def00b5-us19';
 
 app.post('/signup', function (req, res) {
 	
@@ -86,7 +86,7 @@ app.post('/signup', function (req, res) {
 	  })
 		  .end(function(err, response) {
 			if (response.status < 300 || (response.status === 400 && response.body.title === "Member Exists")) {
-			  res.send("Signed Up!");
+			  //res.send("Signed Up!");
 			  console.log(response);
 			} else {
 				console.log(response.status);
@@ -94,6 +94,6 @@ app.post('/signup', function (req, res) {
 			  res.send('Sign Up Failed :(');
 			}
 		});
-});*/
+});
 
 
